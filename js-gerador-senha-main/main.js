@@ -44,10 +44,10 @@ function geraSenha() {
     if (checkbox[1].checked) {
         alfabeto = alfabeto + letrasMinusculas;
     }
-    if (checkbox[2].checked) {
+    if (checkbox[3].checked) {
         alfabeto = alfabeto + numeros;
     }
-    if (checkbox[3].checked) {
+    if (checkbox[2].checked) {
         alfabeto = alfabeto + simbolos;
     }
     let senha = '';
